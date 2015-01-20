@@ -16,6 +16,8 @@ a:hover {
 }
 
 h1 {
+	border: lightgray;
+	border-style: inset;
 	background-color: white;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -23,8 +25,12 @@ h1 {
 	vertical-align: middle;
 }
 
-h2 {
-	/*line-height: ;*/
+#small_tag {
+	font-size: 80%;
+}
+
+#summary {
+	line-height: 1.5;
 }
 
 #profile_pic {
