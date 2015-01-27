@@ -1,0 +1,76 @@
+body {
+  font-family: 'Raleway', 'helvetica neue', arial, sans-serif;
+  font-weight: 300;
+  /*font-size: ;*/
+  color: black;
+  /*background: url(../images/grey_wall.jpg) repeat;*/
+  background: lightgray;
+}
+
+/*Changing or overriding basic Bootstrap styling*/
+/*.navbar {
+	font-family: ;
+	font-size: ;
+}*/
+
+/*Specifically overriding a Bootstrap element like hover*/
+/*.navbar .navbar-brand:hover {
+	color: ;
+}*/
+
+.thumbnal {
+	height: 500px;
+}
+
+.thumbnal .caption {
+	height: 500px;
+}
+
+a {
+	color: blue;
+}
+
+a:hover {
+	color: green;
+}
+
+h1 {
+	border: lightgray;
+	border-style: inset;
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#small_tag {
+	font-size: 80%;
+}
+
+#summary {
+	line-height: 1.5;
+}
+
+#profile_pic {
+	float: right;
+}
+
+/*#wrapper {
+  width: 960px;
+  margin: 20px auto;
+}*/
+
+#exp_links {
+	width: 200px;
+	height: 125px;
+	/*background-color: none;*/
+	/*box-shadow: 10px 10px 5px #888888;*/
+/*	margin-left: 20px;
+	margin-right: 20px;*/
+}
+
+#social_media {
+	margin-left: 10px;
+	margin-right: 10px;
+}

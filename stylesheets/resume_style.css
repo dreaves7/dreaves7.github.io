@@ -7,6 +7,17 @@ body {
   background: lightgray;
 }
 
+/*Changing or overriding basic Bootstrap styling*/
+/*.navbar {
+	font-family: ;
+	font-size: ;
+}*/
+
+/*Specifically overriding a Bootstrap element like hover*/
+/*.navbar .navbar-brand:hover {
+	color: ;
+}*/
+
 a {
 	color: blue;
 }
@@ -33,22 +44,15 @@ h1 {
 	line-height: 1.5;
 }
 
-#profile_pic {
-	float: right;
-}
-
-#wrapper {
+/*#wrapper {
   width: 960px;
   margin: 20px auto;
-}
+}*/
 
 #exp_links {
-	width: 200px;
-	height: 125px;
-	background-color: none;
+	width: 75%;
+	height: 50px;
 	box-shadow: 10px 10px 5px #888888;
-	margin-left: 20px;
-	margin-right: 20px;
 }
 
 #social_media {
