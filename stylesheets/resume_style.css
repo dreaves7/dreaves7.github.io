@@ -4,19 +4,8 @@ body {
   /*font-size: ;*/
   color: black;
   /*background: url(../images/grey_wall.jpg) repeat;*/
-  background: lightgray;
+  background: white;
 }
-
-/*Changing or overriding basic Bootstrap styling*/
-/*.navbar {
-	font-family: ;
-	font-size: ;
-}*/
-
-/*Specifically overriding a Bootstrap element like hover*/
-/*.navbar .navbar-brand:hover {
-	color: ;
-}*/
 
 a {
 	color: blue;
@@ -27,13 +16,8 @@ a:hover {
 }
 
 h1 {
-/*	border: lightgray;
-	border-style: inset;
-	background-color: white;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	text-align: center;
-	vertical-align: middle;*/
+	vertical-align: middle;
+	font-size: 30px;
 }
 
 #small_tag {
@@ -46,7 +30,7 @@ h1 {
 
 #profile_pic {
 	width: 100%;
-	height: 10px;
+	height: 100px;
 }
 
 /*#wrapper {

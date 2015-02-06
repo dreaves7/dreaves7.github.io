@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dan Reaves, Intersport</title>
+  <title>Contact Me</title>
   <meta charset="UTF-8">
 
   <!-- Adding Bootstrap CSS links -->
@@ -9,15 +9,17 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
+  <!-- My personal CSS styling -->
   <link rel="stylesheet" type="text/css" href="stylesheets/resume_style.css">
   <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
+
 <body>
+<div class="container">
 
-  <div class="container">
-
-  <nav class="navbar navbar-default">
+<nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
@@ -63,21 +65,63 @@
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
-  </nav>  
+  </nav>
 
-    <ol class="breadcrumb">
-      <li><a href="index.html">Home</a></li>
-      <li class="active">Experience (Intersport)</li>
-    </ol>
+<div class="row">
+<div class="col-sm-12">
+  <h1 align="center">Contact Me Form</h1>
+</div>
 
-    <h2>Intersport</h2>
-    <h3>Digital and Social Media Content Intern</h3>
-    <h4><i>October 2013 - May 2014</i></h4>
-    <ul>
-      <li>Conduct in-depth market research and analysis to generate key consumer insights and identify potential business opportunities for the digital media group</li>
-      <li>Develop the market positioning, business plan and revenue model that will enable Intersport to capitalize on market opportunities given their unique set of capabilities</li>
-      <li>Design multi-channel content delivery strategy with mobile and web components</li>
-    </ul>
-  </div>
+<div class="row">
+<div class="col-sm-12">
+
+  <form class="form-horizontal" action="mailto:dreaves7@gmail.com?subject=Let's Connect" method="get" enctype="text/plain">
+    <div class="form-group">
+      <label for="name" class="col-sm-2 control-label">Your Name</label>
+      <div class="col-sm-6">
+        <input type="text" class="form-control" id="name" placeholder="Your Name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="myorg" class="col-sm-2 control-label">Organization</label>
+      <div class="col-xs-6">
+        <input type="text" class="form-control" id="myorg" placeholder="Organization">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="email" class="col-sm-2 control-label">Email</label>
+      <div class="col-sm-6">
+        <input type="email" class="form-control" id="email" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="phone" class="col-sm-2 control-label">Phone Number</label>
+      <div class="col-xs-3">
+        <input type="text" class="form-control" id="phone" placeholder="Phone Number">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="contact_method" class="col-sm-2 control-label">Your Preferred Contact Method</label>
+      <div class="col-xs-6">
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="email" value="email"> Email
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="inlineRadioOptions" id="phone" value="phone"> Phone
+        </label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Create Email to Send</button>
+      </div>
+    </div>
+  </form>
+
+</div>
+</div>
+
+</div>
 </body>
 </html>
